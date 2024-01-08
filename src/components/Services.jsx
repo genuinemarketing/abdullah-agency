@@ -33,7 +33,7 @@ const Services = () => {
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
+              We specialize in crafting beautiful, high quality marketing pages.
               The rest of the website will be a shell that uses lorem ipsum
               everywhere.
             </ListItem>

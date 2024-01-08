@@ -4,6 +4,7 @@ import FadeIn from "./FadeIn";
 import FooterNavigation from "./FooterNavigation";
 import Logo from "./Logo";
 import Link from "next/link";
+import Image from "next/image";
 
 const ArrowIcon = (props) => {
   return (
@@ -63,11 +64,11 @@ const Footer = () => {
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href={"/"} aria-label="Home">
             <Logo className="h-8" fillOnHover>
-              Abdullah Agency
+              Genuine Marketing
             </Logo>
           </Link>
           <p className="text-sm text-neutral-700">
-            © Abdullah Agency Inc. {new Date().getFullYear()}
+            © Genuine Marketing, S.L. {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>
