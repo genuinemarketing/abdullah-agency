@@ -30,7 +30,10 @@ const Header = ({
           <Logo invert={invert}>Genuine Marketing</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href={"/contact"} invert={invert}>
+          <Button href={"/contact"} invert={invert} className="block: sm:hidden">
+            Contact
+          </Button>
+          <Button href={"/contact"} invert={invert} className="hidden sm:block">
             Contact us
           </Button>
           <button
