@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import SectionIntro from "./SectionIntro";
 import Container from "./Container";
@@ -15,8 +16,7 @@ const Services = () => {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        Our expertise lies in identifying, exploring, and responding to new possibilities. Let us guide your journey, turning these opportunities into pathways for success.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -33,23 +33,20 @@ const Services = () => {
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
             <ListItem title="Web development">
-              We specialize in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+              We specialize in crafting beautiful, high-quality websites for businesses of all sizes. A website not only that meets but exceeds industry standards.
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Digital marketing">
+              We don't just offer digital marketing; we deliver an extraordinary fusion of expertise and innovation.
+              Our team creates magic to set your brand apart.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Lead generation">
+              It's not just about numbers; it's about conversions.
+              Watch as our high-quality leads seamlessly transition into satisfied customers,
+              driving your revenue to new heights.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Sales">
+              Experience unparalleled sales expertise with our leading team of sales professionals.
+              No challenge is too great, our skilled salesforce excels at selling anything and everything.
             </ListItem>
           </List>
         </div>

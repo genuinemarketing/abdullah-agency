@@ -15,9 +15,7 @@ export default function Home() {
             Make your online presence a reality with us!
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a group of developer working at the intersection of design
-            and technology. It is a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+          We are a dynamic collective of digital marketers, skilled developers, and results-driven sales experts, united by a common goal: to catapult your business to genuine success.
           </p>
         </FadeIn>
       </Container>
@@ -26,9 +24,7 @@ export default function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: "Phobia", logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user microphone without triggering one of
-        those annoying permission dialogs.
+        The team at Genuine Marketing went above and beyond! Their expertise in web development, digital marketing, lead generation, and sales truly set them apart. Exceptional results, and a pleasure to work with!
       </Testimonials>
       <Services />
       <ContactSection />
