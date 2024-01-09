@@ -18,7 +18,7 @@ export const SocialMediaProfiles = [
   { title: "GitHub", href: "https://github.com/genuinemarketing", icon: BsGithub },
   {
     title: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=100010070348939",
+    href: "https://www.facebook.com/*",
     icon: BsFacebook,
   },
   {
