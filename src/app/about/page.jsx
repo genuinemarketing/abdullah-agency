@@ -18,13 +18,12 @@ const AboutPage = () => {
             Genuine Marketing was started by two friends who noticed that digital agencies
             were charging clients double what an in-house team would
             cost. Since the beginning, we have been committed to doing things
-            differently by charging half instead.
+            differently.
           </p>
           <p>
-            At Genuine Marketing, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+          At Genuine Marketing, we're more than just colleagues — we're a family.
+          This ethos forms the foundation of our professional culture, emphasizing mutual support, shared values, and a commitment to collective success.
+          As a unified team, we prioritize open communication, collaboration, and a shared dedication to delivering exceptional results for our clients.
           </p>
         </div>
       </PageIntro>
