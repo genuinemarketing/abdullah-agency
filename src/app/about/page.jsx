@@ -16,7 +16,7 @@ const AboutPage = () => {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Genuine Marketing was started by two friends who noticed that digital agencies
+            Genuine Marketing was started by three friends who noticed that digital agencies
             were charging clients double what an in-house team would
             cost. Since the beginning, we have been committed to doing things
             differently.
