@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Section from "./Section";
 import imageLaptop from "@/images/laptop.jpg";
