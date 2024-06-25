@@ -7,11 +7,13 @@ import logoMailSmirk from "../images/clients/mail-smirk/logo-light.svg";
 import logoNorthAdventures from "../images/clients/north-adventures/logo-light.svg";
 import logoPhobiaLight from "../images/clients/phobia/logo-light.svg";
 import logoUnseal from "../images/clients/unseal/logo-light.svg";
+import logoIkea from "../images/clients/ikea/logo-light.png";
 import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
   ["Phobia", logoPhobiaLight],
+  // ["Ikea", logoIkea],
   ["Family Fund", logoFamilyFund],
   ["Unseal", logoUnseal],
   ["Mail Smirk", logoMailSmirk],
@@ -19,6 +21,7 @@ const clients = [
   ["Green Life", logoGreenLife],
   ["Bright Path", logoBrightPath],
   ["North Adventures", logoNorthAdventures],
+
 ];
 
 const Clients = () => {
