@@ -1,26 +1,17 @@
 import Image from "next/image";
-import logoBrightPath from "../images/clients/bright-path/logo-light.svg";
-import logoFamilyFund from "../images/clients/family-fund/logo-light.svg";
-import logoGreenLife from "../images/clients/green-life/logo-light.svg";
-import logoHomeWork from "../images/clients/home-work/logo-light.svg";
-import logoMailSmirk from "../images/clients/mail-smirk/logo-light.svg";
-import logoNorthAdventures from "../images/clients/north-adventures/logo-light.svg";
-import logoPhobiaLight from "../images/clients/phobia/logo-light.svg";
-import logoUnseal from "../images/clients/unseal/logo-light.svg";
-import logoIkea from "../images/clients/ikea/logo-light.png";
+
 import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
-  ["Phobia", logoPhobiaLight],
-  // ["Ikea", logoIkea],
-  ["Family Fund", logoFamilyFund],
-  ["Unseal", logoUnseal],
-  ["Mail Smirk", logoMailSmirk],
-  ["Home Work", logoHomeWork],
-  ["Green Life", logoGreenLife],
-  ["Bright Path", logoBrightPath],
-  ["North Adventures", logoNorthAdventures],
+  ["Ikea"],
+  ["Clas Ohlson"],
+  ["Coop"],
+  ["Stadium"],
+  ["Plantagen"],
+  ["Webbhallen"],
+  ["Åhlens"],
+  ["Willys  "],
 
 ];
 
@@ -30,7 +21,7 @@ const Clients = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We have worked with hundreds of amazing people
+            We have worked with hundreds of amazing people on
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -42,7 +33,10 @@ const Clients = () => {
             {clients.map(([client, logo]) => (
               <li key={client}>
                 <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
+                <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
+            {client}
+          </h2>
+                  {/* <Image src={logo} alt={client} unoptimized /> */}
                 </FadeIn>
               </li>
             ))}
