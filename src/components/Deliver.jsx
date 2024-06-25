@@ -8,31 +8,14 @@ const Deliver = () => {
     <Section title="Deliver" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+          
+During the build phase, we strategically prioritize tasks and extend timelines as needed to accommodate evolving requirements, ensuring a high-quality and well-tailored final product.
         </p>
         <p>
-          Despite largely using pre-built components, most of the{" "}
-          <strong className="font-semibold text-neutral-950">progress</strong>{" "}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
+        Our effective use of pre-built components allows us to focus on adding unique and exciting features.
         </p>
         <p>
-          We ensure that the main pages of the site are{" "}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{" "}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{" "}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{" "}
-          retainer.
+        We ensure that the final project not only meets but exceeds client expectations. By strategically allocating development time and leveraging pre-built components effectively, we deliver a robust solution that is both timely and innovative. Our commitment to crafting augmented reality demos that resonate with audiences underscores our dedication to creating impactful and memorable digital experiences.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
@@ -40,16 +23,14 @@ const Deliver = () => {
       </h3>
       <List>
         <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+          Our projects always have 100% test coverage.
         </ListItem>
         <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
+          To ensure reliability we only use the best droplets that money can buy.
         </ListItem>
         <ListItem title="Support">
           Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+          uses, you can expect a lifetime of support.
         </ListItem>
       </List>
     </Section>
