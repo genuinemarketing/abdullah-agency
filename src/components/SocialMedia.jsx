@@ -3,9 +3,9 @@ import clsx from "clsx";
 import {
   BsFacebook,
   BsInstagram,
-  BsTwitter,
-  BsGithub,
-  BsYoutube,
+  // BsTwitter,
+  // BsGithub,
+  // BsYoutube,
   BsLinkedin,
 } from "react-icons/bs";
 
@@ -15,27 +15,27 @@ export const SocialMediaProfiles = [
     href: "https://www.instagram.com/genuinemarketing_sl",
     icon: BsInstagram,
   },
-  { title: "GitHub", href: "https://github.com/genuinemarketing", icon: BsGithub },
-  {
-    title: "Facebook",
-    href: "https://www.facebook.com/*",
-    icon: BsFacebook,
-  },
   {
     title: "Linkedin",
     href: "https://www.linkedin.com/in/*/",
     icon: BsLinkedin,
   },
+  // { title: "GitHub", href: "https://github.com/genuinemarketing", icon: BsGithub },
   {
-    title: "Youtube",
-    href: "https://www.youtube.com/*",
-    icon: BsYoutube,
+    title: "Facebook",
+    href: "https://www.facebook.com/*",
+    icon: BsFacebook,
   },
-  {
-    title: "Twitter",
-    href: "https://twitter.com/*",
-    icon: BsTwitter,
-  },
+  // {
+  //   title: "Youtube",
+  //   href: "https://www.youtube.com/*",
+  //   icon: BsYoutube,
+  // },
+  // {
+  //   title: "Twitter",
+  //   href: "https://twitter.com/*",
+  //   icon: BsTwitter,
+  // },
 ];
 
 const SocialMedia = ({ className, invert = false }) => {

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
@@ -29,9 +30,9 @@ const AboutPage = () => {
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="8" label="Skilled employees" />
-          <StatListItem value="19" label="Satisfied clients" />
-          <StatListItem value="€5M" label="Invoices billed" />
+          <StatListItem value="10" label="Skilled employees" />
+          <StatListItem value="37" label="Satisfied clients" />
+          <StatListItem value="€8M" label="Invoices billed" />
         </StatList>
       </Container>
       <Cultures />
