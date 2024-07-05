@@ -22,7 +22,7 @@ export default function Home() {
       <Clients />
       <Testimonials
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: "Phobia", logo: logoPhobiaDark }}
+        client={{name: "Emily Birkin, Head of opeations on IKEA"}}
       >
         The team at Genuine Marketing went above and beyond! Their expertise in web development, digital marketing, lead generation and sales truly set them apart. Exceptional results and a pleasure to work with!
       </Testimonials>
