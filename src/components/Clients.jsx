@@ -5,11 +5,11 @@ import FadeIn, { FadeInStagger } from "./FadeIn";
 
 const clients = [
   ["Ikea"],
-  ["Clas Ohlson"],
+  ["Ica"],
   ["Coop"],
   ["Stadium"],
   ["Plantagen"],
-  ["Webbhallen"],
+  ["Dice"],
   ["Åhlens"],
   ["Willys  "],
 
