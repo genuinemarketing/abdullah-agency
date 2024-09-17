@@ -20,12 +20,12 @@ const Build = () => {
         Our account managers are trained to provide timely and thoughtful responses to client inquiries, ensuring each communication reflects our dedication to quality and client satisfaction.
         </p>
       </div>
-      <Blockquote
+      {/* <Blockquote
         author={{ name: "Emily Birkin", role: "Head of opeations on IKEA" }}
         className="mt-12"
       >
         Genuine Marketing provided progress updates so consistently that we almost started to believe they were automated!
-      </Blockquote>
+      </Blockquote> */}
     </Section>
   );
 };

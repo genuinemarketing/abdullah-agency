@@ -15,15 +15,15 @@ export const SocialMediaProfiles = [
     href: "https://www.instagram.com/genuinemarketing_sl",
     icon: BsInstagram,
   },
-  {
-    title: "Linkedin",
-    href: "https://www.linkedin.com/in/*/",
-    icon: BsLinkedin,
-  },
+  // {
+  //   title: "Linkedin",
+  //   href: "https://www.linkedin.com/in/*/",
+  //   icon: BsLinkedin,
+  // },
   // { title: "GitHub", href: "https://github.com/genuinemarketing", icon: BsGithub },
   {
     title: "Facebook",
-    href: "https://www.facebook.com/*",
+    href: "https://www.facebook.com/profile.php?id=61565595755832",
     icon: BsFacebook,
   },
   // {
